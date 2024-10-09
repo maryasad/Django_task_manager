@@ -1,5 +1,6 @@
 # Django_task_manager
 ## Project Structure
+<
 task_manager/          # Main project directory
 │
 ├── task_manager/      # Inner directory containing settings and main URLs
@@ -22,7 +23,7 @@ task_manager/          # Main project directory
 │
 └── manage.py
 
-
+>
 
 ## Project Setup
 *Install Required Software:  
