@@ -10,13 +10,20 @@
 -python manage.py startapp tasks
 * Configure Settings:  
   Open task_manager/settings.py and add your new app and required packages to the INSTALLED_APPS list:
-            INSTALLED_APPS = [
-              ...,
-              'rest_framework',  # Django REST Framework
-              'crispy_forms',    # Crispy Forms
-              'tasks',           # Your tasks app
-          ]
-          
-          CRISPY_TEMPLATE_PACK = 'bootstrap4'  # Use Bootstrap 4 for crispy forms
+    'rest_framework',  # Django REST Framework
+    'crispy_forms',    # Crispy Forms
+    'tasks',           # Your tasks app
+  CRISPY_TEMPLATE_PACK = 'bootstrap4'  # Use Bootstrap 4 for crispy forms
+
+
+INSTALLED_APPS = [
+    ...,
+    'rest_framework',  # Django REST Framework
+    'crispy_forms',    # Crispy Forms
+    'tasks',           # Your tasks app
+]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'  # Use Bootstrap 4 for crispy forms
+
 
 
