@@ -1,4 +1,5 @@
 # Django_task_manager
+## Project Setup
 *Install Required Software:  
 > pip install django djangorestframework django-crispy-forms
 * Activat Virtual Environment  
@@ -13,7 +14,19 @@
     > 'rest_framework',  # Django REST Framework  
     > 'crispy_forms',    # Crispy Forms  
     > 'tasks',           # Your tasks app  
-  > CRISPY_TEMPLATE_PACK = 'bootstrap4'  # Use Bootstrap 4 for crispy forms  
+  > CRISPY_TEMPLATE_PACK = 'bootstrap4'  # Use Bootstrap 4 for crispy forms
+## Implementing Features  
+1. MTV Architecture:
+* Models: Define the Task model in tasks/models.py:
+> from django.db import models
+> class Task(models.Model):
+    > title = models.CharField(max_length=100)
+    > description = models.TextField(blank=True)
+    > completed = models.BooleanField(default=False)
+
+    > def __str__(self):
+        > return self.title
+
 
 
 
