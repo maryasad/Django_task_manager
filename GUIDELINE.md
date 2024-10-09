@@ -1,8 +1,6 @@
-Creating a project to practice Django and its core concepts is a great way to solidify your understanding. Let’s outline a project idea and guide you through the setup, including the various features you want to implement.
+**Task Manager Application**
 
-### Project Idea: **Task Manager Application**
-
-This application allows users to create, update, delete, and view tasks. Each task can have a title, description, and a status (e.g., pending, completed). This project will cover the Django core concepts you want to learn:
+This application allows users to create, update, delete, and view tasks. Each task can have a title, description, and a status.
 
 ### Project Setup
 
@@ -14,8 +12,7 @@ This application allows users to create, update, delete, and view tasks. Each ta
    ```
 
 2. **Create a New Django Project**:
-   Open your terminal and create a new Django project:
-
+   
    ```bash
    django-admin startproject task_manager
    cd task_manager
